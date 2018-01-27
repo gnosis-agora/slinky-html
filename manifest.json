@@ -20,26 +20,9 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.youtube.com/*"
-      ],
-      "js": ["content.js"]
-    },
-
-    {
-      "matches": [
         "http://*/*", "https://*/*"
       ],
-      "exclude_matches" : [
-        "*://*.youtube.com/*", "*://*.facebook.com/*"
-      ],
-      "js": ["other.js"]
-    },
-      
-    {
-      "matches": [
-        "*://*.facebook.com/*"
-      ],
-      "js": ["jquery-1.12.0.min.js", "facebook.js"]
+      "js": ["script.js"]
     }
   ]
 }
