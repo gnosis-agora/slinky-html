@@ -1,19 +1,26 @@
 function annoy() {
-    var forms = document.getElementsByTagName('form');
 
-    /*
-        for all the video elements in a website
-    */
-    var i = 0
-    while (forms.length > 0) {
-        var sizeSpecs = forms[0].getBoundingClientRect();
-        var width = sizeSpecs.width;
-        var height = sizeSpecs.height;
-        // alert(width + " : " + height);     
-        
+
+  var elements = document.querySelectorAll('body *');
+  // var exceptions = ["SCRIPT"];
+  /*
+      for all the video elements in a website
+  */
+  for (var i=0;i<elements.length;i++) {
+    var tag = elements[i].tagName;
+    if (elements[i].hasChildNodes()) {
+      elements[i].className += " ignoreMe";
     }
-    
-    
+  }
+
+  $(document).ready(function(){
+    $('body').jGravity({
+      weight: 25,
+      depth: 1,
+      drag: true,    
+    });
+  });
+   
 }
 //Run functions
 annoy();
