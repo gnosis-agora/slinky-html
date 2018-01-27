@@ -1,11 +1,18 @@
 {
     "manifest_version": 2,
 
-    "name": "AdBlock Pro",
+    "name": "Slinky Html",
     "description": "Blocks ads all over the web!",
     "version": "2.47",
 
-    "icons": {"48": "icon48.png"},
+    "icons": {"48": "slinky.png"},
+
+    "browser_action": {
+      "default_icon": {
+        "48": "slinky.png"
+      },
+      "default_title": "Slinky"
+    },
 
     "permissions": [
 		"activeTab",

@@ -1,10 +1,15 @@
-# Never Gonna Give You Up
+# Slinky HTML
 
-Never Gonna Give You Up is a Chrome Extension going for the Most Annoying Hack category in Hack&Roll 2016.
+![alt text](https://i.ytimg.com/vi/q1_aUtHcpHs/maxresdefault.jpg)
+Do yuo wan to see de wae of my people?
 
-## Works On
+## How to use
 
-- [https://youtube.com/](https://youtube.com/)
-- [http://w3schools.com/](http://www.w3schools.com/html/html5_video.asp)
-- [http://narutobase.net/](http://narutobase.net/)
-- [http://facebook.com/](http://facebook.com/)
+1. Download the ZIP file onto your desktop, and unzip it
+2. Open your chrome browser -> top right options icon -> more tools -> extensions
+3. Load unpacked extensions -> select `slinky-html`
+4. Navigate to any page
+5. De page will sho u de wae
+
+
+**Note** To turn off the effects, you need to disable the extension and refresh the target page.
