@@ -1,7 +1,7 @@
 # Slinky HTML
 
 ![alt text](https://i.ytimg.com/vi/q1_aUtHcpHs/maxresdefault.jpg)
-Do yuo wan to see de wae of my people?
+**Do yuo wan to see de wae of my people?**
 
 ## How to use
 
@@ -12,4 +12,4 @@ Do yuo wan to see de wae of my people?
 5. De page will sho u de wae
 
 
-**Note** To turn off the effects, you need to disable the extension and refresh the target page.
+**Note:** To turn off the effects, you need to disable the extension and refresh the target page.
